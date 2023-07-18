@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+
+    <div class="calculadora">
+        
+    <p id="resultado"></p> <!-- display da calculadora -->
+ 
+    <table> <!-- botões -->
+<tr> 
+            <td colspan="2"><button class="botao" style="width: 157px;" onclick="limp()">AC</button></td>
+            <td><button class="botao" onclick="apag()">&#9003</button></td>  <!-- &#9003 é o simbolo de apagar um caractere -->
+            <td><button class="botao" onclick="calc('/')">÷</button></td>
+</tr>
+<tr>
+            <td><button class="botao" onclick="calc('7')">7</button></td>
+            <td><button class="botao" onclick="calc('8')">8</button></td>
+            <td><button class="botao" onclick="calc('9')">9</button></td>
+            <td><button class="botao" onclick="calc('*')">×</button></td>
+</tr>
+<tr>      
+            <td><button class="botao" onclick="calc('4')">4</button></td> 
+            <td><button class="botao" onclick="calc('5')">5</button></td> 
+            <td><button class="botao" onclick="calc('6')">6</button></td> 
+            <td><button class="botao" onclick="calc('-')">-</button></td> 
+</tr>
+<tr>
+            <td><button class="botao" onclick="calc('1')">1</button></td> 
+            <td><button class="botao" onclick="calc('2')">2</button></td> 
+            <td><button class="botao" onclick="calc('3')">3</button></td> 
+            <td><button class="botao" onclick="calc('+')">+</button></td> 
+</tr>
+<tr>
+            <td><button class="botao" onclick="calc('.')">.</button></td> 
+            <td><button class="botao" onclick="calc('0')">0</button></td>
+            <td colspan="2"><button class="botao" style="width: 157px;" onclick="res()">=</button></td> 
+
+</tr>
+    </table>
+</div>
+        <footer>
+            Feito por @maat.aug
+        </footer>
+</body>
+</html>
+
